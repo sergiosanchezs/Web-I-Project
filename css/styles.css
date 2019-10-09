@@ -2,15 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #212121;
   color: #edf0f1;
 }
 
 body {
   text-align: center;
-/* }
-
-body .bk_image { */
+  /* background-image: url(../images/bg_2.jpg); */
   background-image: url(../images/main.jpeg);
   background-position: center center !important;
   background-size: cover;
@@ -19,7 +16,16 @@ body .bk_image { */
   z-index: 0;
   display: block;
   height: 763px;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  opacity: .7;
 }
 
 li, a, button {
@@ -29,15 +35,26 @@ li, a, button {
   text-decoration: none;
 }
 
-header {
+/****************** This is the Nav Bar ********************/
+.nav {
   display: flex;
+  position: absolute;
+  /* top: 2.5em; */
+  top: 50px;
+  left: 0;
+  right: 0;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo {
+.logo, .logo a{
+  font-weight: bolder;
+  font-size: 30px;
   cursor: pointer;
+  /* color: #0088a9; */
 }
 
 .nav__links {
@@ -51,6 +68,7 @@ header {
 
 .nav__links li a {
   transition: all 0.3s ease 0s;
+  /* color: #0088a9; */
 }
 
 .nav__links li a:hover {
@@ -75,22 +93,29 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.6);
 }
 
-
+/**************** This is the info bar ******************/
 .wrap_info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display: block;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  padding-bottom: 0.35rem !important;
+  padding-top: 0.35rem !important;
 }
 
-
 .info_layer {
+  background-color: transparent;
   list-style: none;
 }
 
 .info_layer li {
+  background-color: transparent;
   transition: all 0.3s ease 0s;
   display: inline-block;
   padding: 0px 100px;
-  color: #999;
+  color: rgba(255, 255, 255, 0.5)
 }
