@@ -48,6 +48,7 @@ li, a, button {
   z-index: 3;
   display: block;
   padding: 10px;
+  padding-left: 10rem;
   background-color: rgba(255, 255, 255, 0.05) !important;
   padding-bottom: 0.35rem !important;
   padding-top: 0.35rem !important;
@@ -62,7 +63,7 @@ li, a, button {
   background-color: transparent;
   transition: all 0.3s ease 0s;
   display: inline-block;
-  padding: 0px 100px;
+  padding: 0px 5rem;
   color: rgba(255, 255, 255, 0.5)
 }
 
@@ -210,6 +211,9 @@ td{
   border-radius: 4px;
   font-size: 1.1rem;
   border: none !important;
+}
+.t input {
+  color:#555;
 }
 .t {
   padding-top: 30px;
