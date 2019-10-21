@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -122,6 +122,62 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.6);
 }
 
+/********************************************************/
+/* All CSS related with the <main> body */
+
+.main {
+  z-index: 5;
+  top: 15rem;
+  position: relative;
+}
+.tangerine_font {
+  font-family: 'Tangerine', cursive;
+  font-size: 7rem;
+  /* color: rgba(0, 136, 169, 0.6); */
+  color: rgb(201, 201, 66);
+  transition: all 0.3s ease 0s;
+}
+.slogan {
+  font-size: 3.3rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+.show_plates {
+  padding-top: 30px;
+  width: 100%;
+}
+.show_plates table {
+  width:70%; 
+  margin-left:15%; 
+  margin-right:15%;
+}
+.show_plates td {
+  max-width: 25%;
+  text-align: center;
+}
+th {
+  padding: 10px 5px;
+  text-transform: capitalize;
+}
+td p {
+  padding: 10px 20px;
+  text-align: justify;
+}
+.wrap_img {
+  text-align: center;
+  align-self: center;
+}
+.plates_img {
+  text-align: center;
+  object-fit: cover;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
 
 
 /********************************************************/
@@ -167,25 +223,6 @@ td{
 #box3 img {
   height: 100px;
   width: 70px;
-}
-
-#img1 {
-  background-image: url('../images/insta1.jpg');
-}
-#img2 {
-  background-image: url('../images/insta2.jpg');
-}
-#img3 {
-  background-image: url('../images/insta3.jpg');
-}
-#img4 {
-  background-image: url('../images/insta4.jpg');
-}
-#img5 {
-  background-image: url('../images/insta5.jpg');
-}
-#img6  {
-  background-image: url('../images/insta6.jpg');
 }
 .img {
   height: 100px;
