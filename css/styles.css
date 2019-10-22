@@ -205,9 +205,18 @@ td p {
   display: block;
   text-align: center;
 }
+.container {
+  display: inline-block;
+}
 .col {
   margin: 7px 7px;
   width: 50%;
+}
+.col input, .col select, .col span {
+  text-align: center;
+  padding: 8px 12px;
+  text-transform: capitalize;
+  width: 200px !important;
 }
 .full {
   width: 100%;
@@ -216,25 +225,20 @@ td p {
   text-align: left;
   align-content: left;
 }
-.col input, .col select, .col span {
-  text-align: center;
-  padding: 8px 12px;
-  text-transform: capitalize;
-  width: 200px !important;
-}
 .h {
   font-size: 20px;
   font-weight: 800;
   text-align: left;
 }
 .title {
-  font-size: 40px;
+  font-size: 7rem;
   padding: 0;
 }
-.container {
-  display: inline-block;
+.overlapping {
+  position: relative;
+  top: -30px;
+  font-size: 2rem;
 }
-
 
 
 /********************************************************/
