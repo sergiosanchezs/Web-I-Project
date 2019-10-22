@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #edf0f1;
+  color: #444;
 }
 
 /* Real Body of the webpage */
@@ -191,6 +191,49 @@ td p {
   height: 513px;
 }
 
+/********************************************************/
+/* Book Table Page */
+.form_table {
+  display: block;
+  width: 60%;
+  text-align: center;
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.row, col {
+  display: block;
+  text-align: center;
+}
+.col {
+  margin: 7px 7px;
+  width: 50%;
+}
+.full {
+  width: 100%;
+}
+.left {
+  text-align: left;
+  align-content: left;
+}
+.col input, .col select, .col span {
+  text-align: center;
+  padding: 8px 12px;
+  text-transform: capitalize;
+  width: 200px !important;
+}
+.h {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+}
+.title {
+  font-size: 40px;
+  padding: 0;
+}
+.container {
+  display: inline-block;
+}
 
 
 
