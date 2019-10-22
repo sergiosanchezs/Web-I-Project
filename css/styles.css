@@ -8,8 +8,7 @@
 /* Real Body of the webpage */
 main {
   text-align: center;
-  /* background-image: url(../images/bg_2.jpg); */
-  background-image: url(../images/main2.jpeg);
+  background-image: url(../images/bg_1.jpg);
   background-position: center center !important;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +16,11 @@ main {
   z-index: -1;
   display: block;
   height: 763px;
+}
+/* about page bg image */
+.about {
+  background-image: url(../images/bg_4.jpeg);
+  height: 250px;
 }
 
 /* Overlay layer that makes it looks darker. */
@@ -130,6 +134,11 @@ button:hover {
   top: 15rem;
   position: relative;
 }
+/******** titles in the other pages ***********/
+.secondary {
+  top: 10rem;
+}
+/*********************************************/
 .tangerine_font {
   font-family: 'Tangerine', cursive;
   font-size: 7rem;
@@ -142,9 +151,10 @@ button:hover {
   color: whitesmoke;
   text-transform: uppercase;
   padding-bottom: 60px;
+  transition: all 0.3s ease 0s;
 }
 .show_plates {
-  padding-top: 30px;
+  padding-top: 10px;
   width: 100%;
 }
 .show_plates table {
@@ -175,7 +185,11 @@ td p {
   width: 100px;
   height: 100px;
 }
-
+/********************************************************/
+/* All CSS related with the real body of the page */
+.body {
+  height: 513px;
+}
 
 
 
