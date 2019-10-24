@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #444;
+  color: #eee;
 }
 
 /* Real Body of the webpage */
@@ -34,7 +34,7 @@ main {
   opacity: .7;
 }
 
-/* No decoration for this elements */
+/* No decoration for these elements */
 li, a, button {
   font-weight: 400;
   font-size: 16px;
@@ -106,7 +106,7 @@ li, a, button {
 
 .nav__links li a:hover {
   transition: all 0.1s ease 0s;
-  color: #0088a9; 
+  color: #2B94D1; 
 }
 
 .nav__links li a:active { /* When the link is active it has a color */
@@ -115,7 +115,7 @@ li, a, button {
 
 button {
   padding: 9px 29px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: #2B94D1;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -142,8 +142,8 @@ button:hover {
 .tangerine_font {
   font-family: 'Tangerine', cursive;
   font-size: 7rem;
-  /* color: rgba(0, 136, 169, 0.6); */
-  color: rgb(201, 201, 66);
+  color: #2B94D1 !important;
+  font-weight: 900;
   transition: all 0.3s ease 0s;
 }
 .slogan {
@@ -194,14 +194,14 @@ td p {
 /********************************************************/
 /* Book Table Page */
 .form_table {
-  display: block;
-  width: 60%;
-  text-align: center;
+  display: flex;
+  /* width: 100%; */
+  /* text-align: center; */
   color: black;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0;
+  margin-right: 0;
 }
-.row, col {
+.row, .col {
   display: block;
   text-align: center;
 }
@@ -210,13 +210,15 @@ td p {
 }
 .col {
   margin: 7px 7px;
-  width: 50%;
+  width: 100%;
+  color: #555;
 }
-.col input, .col select, .col span {
+.col input, .col select, .col span, .col option {
   text-align: center;
   padding: 8px 12px;
   text-transform: capitalize;
-  width: 200px !important;
+  width: 200px;
+  color: #555;
 }
 .full {
   width: 100%;
@@ -227,17 +229,40 @@ td p {
 }
 .h {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 900;
   text-align: left;
 }
 .title {
-  font-size: 7rem;
+  font-size: 8rem;
   padding: 0;
 }
 .overlapping {
   position: relative;
-  top: -30px;
+  margin-top: -59px;
   font-size: 2rem;
+  text-transform: uppercase;
+  /* font-size: 20px; */
+}
+.img_map {
+  width: 100%;
+  margin-top:-6px;
+  height: 512px;
+  object-fit: cover;
+  align-content: center;
+  padding: 0;
+}
+.info, .map {
+  max-width: 50%;
+  text-align: center;
+  align-content: center;
+}
+.btn_reservation {
+  border: 0;
+  background-color: #2B94D1;
+  color:white !important;
+  padding: 15px 30px !important;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 
@@ -317,9 +342,11 @@ td{
   padding-top: 30px;
 }
 .b {
-  background-color: rgba(0, 136, 169, 1);
+  background-color: #2B94D1;
   text-decoration: none;
   font-weight: 600;
+  cursor: pointer;
+  /* color: white; */
   
   
 }
