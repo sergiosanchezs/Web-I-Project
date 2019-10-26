@@ -1,4 +1,3 @@
-/* *, *::before, *::after { */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,13 +51,15 @@ li, a, button {
   z-index: 3;
   display: block;
   padding: 10px;
-  padding-left: 10rem;
+  /* padding-left: 10rem; */
+  
   background-color: rgba(255, 255, 255, 0.05) !important;
   padding-bottom: 0.35rem !important;
   padding-top: 0.35rem !important;
 }
 
 .info_layer {
+  margin: auto;
   background-color: transparent;
   list-style: none;
 }
@@ -188,7 +189,7 @@ td p {
 /********************************************************/
 /* All CSS related with the real body of the page */
 .body {
-  height: 513px;
+  min-height: 515px;
 }
 
 /********************************************************/
@@ -201,17 +202,27 @@ td p {
   margin-left: 0;
   margin-right: 0;
 }
-.row, .col {
+.row{
   display: block;
-  text-align: center;
+  
 }
 .container {
   display: inline-block;
 }
 .col {
-  margin: 7px 7px;
-  width: 100%;
+  display: inline-block;
+  margin: 7px 7px 0 0;
+  min-width: 50%;
   color: #555;
+  text-align: center;
+}
+.mp {
+  min-width: 50%;
+  max-width: 50%;
+}
+.bt {
+  min-width: 550px;
+  margin: auto;
 }
 .col input, .col select, .col span, .col option {
   text-align: center;
@@ -238,23 +249,27 @@ td p {
 }
 .overlapping {
   position: relative;
-  margin-top: -59px;
-  font-size: 2rem;
+  margin-top: -30px;
+  font-size: 1.6rem;
   text-transform: uppercase;
   /* font-size: 20px; */
 }
 .img_map {
   width: 100%;
   margin-top:-6px;
-  height: 512px;
+  min-height: 700px;
   object-fit: cover;
   align-content: center;
   padding: 0;
 }
-.info, .map {
-  max-width: 50%;
-  text-align: center;
-  align-content: center;
+.ab_map {
+  display: inline-flex;
+}
+.info_about, .map {
+  margin: auto;
+}
+.info_about{
+  min-width: 700px;
 }
 .btn_reservation {
   border: 0;
@@ -330,6 +345,7 @@ td{
 #copyright {
   padding: 20px;
   text-align: center;
+  color: #999999;
 }
 
 .form {
