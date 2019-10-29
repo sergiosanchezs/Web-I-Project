@@ -1,4 +1,4 @@
-* {
+*, *::before , *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -43,35 +43,22 @@ li, a, button {
 
 /********************************************************/
 /**************** This is the info bar ******************/
-.wrap_info {
+.wrap_info_nav {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3;
-  display: block;
-  padding: 10px;
-  /* padding-left: 10rem; */
-  
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  padding-bottom: 0.35rem !important;
-  padding-top: 0.35rem !important;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.05)
 }
-
-.info_layer {
+.info_container {
+  display: flex;
   margin: auto;
-  background-color: transparent;
-  list-style: none;
 }
-
-.info_layer li {
-  background-color: transparent;
-  transition: all 0.3s ease 0s;
-  display: inline-block;
-  padding: 0px 5rem;
-  color: rgba(255, 255, 255, 0.5)
+.nav_info {
+  padding: 5px 35px;
+  color: #AAAAAA;
 }
-
 /********************************************************/
 /***************** This is the Nav Bar ******************/
 .nav {
