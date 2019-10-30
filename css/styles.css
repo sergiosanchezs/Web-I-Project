@@ -177,8 +177,197 @@ td p {
 /* All CSS related with the real body of the page */
 .body {
   min-height: 515px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  transition: all 0.3s ease 0s;
 }
 
+/* CSS of the menu page */
+
+.table-nav-menu{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding: 55em 40;
+  position: relative;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  transition: all 0.1s ease 0s;
+  color: white; 
+}
+
+.nav_links li a:active { /* When the link is active it has a color */
+  color: #c8a97e;
+}
+
+.table-breakfast{
+  width: 70%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border: 1px solid #dee2e6;
+}
+  .table-breakfast td,
+  .table-breakfast th{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6; }
+  .table-breakfast thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6; }
+  .table-breakfast tbody + tbody {
+    border-top: 2px solid #dee2e6; }
+
+.Breakfast{
+  padding: 9px 29px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+
+}
+
+.Breakfast:hover{
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.bf-title{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.above-right {
+  text-align: right;
+}
+
+.above-right .price {
+  font-size: 20px;
+  color: #2B94D1;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.order-button {
+  background: #2B94D1;
+  border: 1px solid #2B94D1;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.5;
+
+}
+
+.Lunch{
+  padding: 9px 29px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+}
+
+.Lunch:hover{
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.Dinner{
+  padding: 9px 29px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+}
+
+.Dinner:hover{
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.Drinks{
+  padding: 9px 29px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+}
+
+.Drinks:hover{
+    color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.Desserts{
+  padding: 9px 29px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+}
+
+.Desserts:hover{
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.Wine{
+  padding: 9px 29px;  
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 400;
+  align-content: left;
+  color: black;
+}
+
+.Wine:hover{
+  color: white;
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.lc{
+  width: 50%;
+  height: 250px;
+}
+
+.rc p {
+  color: rgba(0, 0, 0, 0.8);
+
+}
 /********************************************************/
 /* Book Table Page */
 .form_table {
