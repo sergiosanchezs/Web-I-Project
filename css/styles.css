@@ -469,7 +469,7 @@ td p {
 
 /********************************************************/
 /* All CSS related with the footer */
-caption {
+.d3 caption {
   font-weight: bold;
   padding: 20px 20px;
   font-size: 1.3rem;
@@ -495,10 +495,10 @@ footer {
   padding-right: 70px;
 }
 
-table{
+.d3 table{
   color:White;
 }
-td{
+.d3 td{
   color:Grey;
 }
 #box1, #box4{
@@ -548,7 +548,65 @@ td{
   text-decoration: none;
   font-weight: 600;
   cursor: pointer;
-  color: white;
-  
-  
+  color: white;  
+}
+
+.ba{
+  flex: 0 0 25%;
+  max-width:25%;
+}
+.a{
+  flex: 0 0 50%;
+  max-width:50%;
+}
+#c{
+  justify-content: center;
+}
+#bc{
+  flex: 0 0 100%;
+  max-width: 100%;
+  color:Black;
+}
+.sla{
+  flex-wrap: wrap;
+  margin-right:10%;
+  margin-left:10%;
+}
+		
+#s1{
+  position:relative;
+  padding: 7em 0;
+}
+#a2{
+  padding-right:30px;
+				
+}
+.container2{
+  width:100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.d-flex{
+  display:flex;
+}
+
+.b1{
+  background-color:rgba(0, 136, 169, 1);
+  color:White;
+  border-color:rgba(0, 136, 169, 1);
+  border-radius: 4px;
+  padding: 15px 40px;
+  font-weight: 600;
+}
+.ta{
+  padding:10px;
+  width: 100%;
+  margin:4px;
+}
+#c caption{
+  padding:0px 20px 20px 20px;
+  font-weight:600;
+  font-size:25px;
 }
