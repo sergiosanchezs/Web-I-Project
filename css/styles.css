@@ -623,6 +623,7 @@ footer {
   border-radius: 4px;
   padding: 15px 40px;
   font-weight: 600;
+  cursor: pointer;
 }
 .ta{
   padding:10px;
