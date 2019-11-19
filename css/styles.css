@@ -153,6 +153,7 @@ button:hover {
 .show_plates td {
   max-width: 25%;
   text-align: center;
+  color: white;
 }
 th {
   padding: 10px 5px;
@@ -366,7 +367,30 @@ td p {
 
 .rc p {
   color: rgba(0, 0, 0, 0.8);
+}
 
+/* -------------------------- */
+/* Stories page */
+.stories_wrap {
+  width: 100%;
+  margin: auto;
+}
+.stories_container {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 10% 20% 5% 25% 5% 20% 10%;
+  /* grid-template-columns: 100px 200px 200px 200px 100px; */
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "e1 TiagoPic e2 Ser2ndPic e3 Ser1stPic e4"
+    "e1 TiagoText e2 Ser2ndText e3 Ser1stText e4";
+}
+.stories_container img {
+  align-self: center;
+  margin: auto;
+}
+.stories_font {
+  text-align: justify;
 }
 /********************************************************/
 /* Book Table Page */
