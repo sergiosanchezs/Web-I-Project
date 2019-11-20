@@ -386,8 +386,7 @@ td p {
     "e1 TiagoText e2 Ser2ndText e3 Ser1stText e4";
 }
 .stories_container img {
-  align-self: center;
-  margin: auto;
+  place-self: center;
 }
 .stories_font {
   text-align: justify;
