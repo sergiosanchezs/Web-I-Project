@@ -149,11 +149,11 @@ button:hover {
   width:70%; 
   margin-left:15%; 
   margin-right:15%;
+  color: white;
 }
 .show_plates td {
   max-width: 25%;
   text-align: center;
-  color: white;
 }
 th {
   padding: 10px 5px;
@@ -454,8 +454,7 @@ td p {
   /* font-size: 20px; */
 }
 .img_map {
-  width: 100%;
-  margin-top:-6px;
+  width: 90%;
   min-height: 700px;
   object-fit: cover;
   align-content: center;
