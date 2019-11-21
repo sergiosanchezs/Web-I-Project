@@ -455,7 +455,7 @@ td p {
 }
 .img_map {
   width: 95%;
-  min-height: 600px;
+  min-height: 650px;
   object-fit: cover;
   align-content: center;
   padding: 0;
