@@ -454,11 +454,14 @@ td p {
   /* font-size: 20px; */
 }
 .img_map {
-  width: 90%;
-  min-height: 700px;
+  width: 95%;
+  min-height: 600px;
   object-fit: cover;
   align-content: center;
   padding: 0;
+}
+.img_map_contact {
+  min-height: 400px;
 }
 .ab_map {
   display: inline-flex;
